@@ -1,0 +1,25 @@
+﻿# API keys / secrets
+apikeys.h
+# Qt Creator
+.qtcreator/
+*.user
+*.user.*
+
+# Qt build folders
+build/
+debug/
+release/
+
+# Generated Qt files
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.so
+*.pdb

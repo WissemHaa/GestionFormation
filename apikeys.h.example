@@ -1,0 +1,16 @@
+#ifndef APIKEYS_H
+#define APIKEYS_H
+
+// Clés EmailJS (https://www.emailjs.com)
+// ⚠️ Ce fichier est un MODÈLE — copiez-le en apikeys.h et remplissez vos vraies clés.
+// apikeys.h (sans .example) est ignoré par git et ne doit JAMAIS être poussé sur GitHub.
+
+#define EMAILJS_SERVICE_ID   "your_emailjs_service_id"
+#define EMAILJS_TEMPLATE_ID  "your_emailjs_template_id"
+#define EMAILJS_PUBLIC_KEY   "your_emailjs_public_key"
+#define EMAILJS_PRIVATE_KEY  "your_emailjs_private_key"
+
+// Groq
+#define GROQ_API_KEY "your_groq_api_key"
+
+#endif // APIKEYS_H
