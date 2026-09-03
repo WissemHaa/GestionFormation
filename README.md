@@ -67,7 +67,7 @@ Modèles complets (MCD / MLD / MPD) disponibles dans [`documentation/`](document
 2. **Créer le schéma Oracle**
    Exécuter [`documentation/database.sql`](documentation/database.sql) dans SQL Developer ou via SQL*Plus, sur le schéma `FORMATION`.
 
-3. **Configurer la source de données ODBC**
+3. **Configurer la source de données ODBC***
    Créer un DSN nommé `Source_Formation` pointant vers la base Oracle (ODBC Data Source Administrator, onglet System DSN).
 
    > ⚠️ **Important — encodage** : si des accents (`é`, `è`...) s'affichent mal ou provoquent des erreurs `ORA-02290`, vérifier le charset de la base :
